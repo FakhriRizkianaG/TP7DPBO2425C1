@@ -31,6 +31,11 @@ DateJoined<br><br>
 
 Semua data bisa dilakukan CRUD. dan jika ada data yang berhubungan yang dihapus maka data yang lain akan terhapus jg (cascade on delete)<br>
 
+di webpage akan ada navbar yang membwa user ke tabel yang diinginkan dan disebekahnya ada form untuk melakukan CRUD.<br>
+user bisa mengklik salah satu tabel untuk memindahkan data ke form CRUD (memudahkan update atau delete)<br>
+User harus memasukan semua data yang diperlukan ketika melakukan add (ada sistem error handling yang mencegah ada id yang sama masuk)<br>
+tombol clear data dibuat untuk meng clear form (memudahkan membersihkan form)<br>
+
 # Dokumentasi
 https://github.com/user-attachments/assets/a9b2897f-eae5-4800-b219-dbf96311017c
 
