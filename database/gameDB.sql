@@ -8,6 +8,10 @@ USE gameDB;
 -- ======================================================
 -- Table: User
 -- ======================================================
+DROP TABLE IF EXISTS Games;
+DROP TABLE IF EXISTS Developer;
+DROP TABLE IF EXISTS User;
+
 CREATE TABLE User (
     UserId INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(100) NOT NULL,
@@ -24,6 +28,8 @@ CREATE TABLE Developer (
     Owner INT NOT NULL,
     Status ENUM('Indie', 'Commercial') NOT NULL,
     FOREIGN KEY (Owner) REFERENCES User(UserId)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
 );
 
 -- ======================================================
@@ -36,6 +42,8 @@ CREATE TABLE Games (
     Genre VARCHAR(50),
     Price INT,
     FOREIGN KEY (Developer) REFERENCES Developer(DevId)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
 );
 
 -- ======================================================
