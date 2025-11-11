@@ -10,24 +10,24 @@ melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.<br>
 # Penjelasan Program
 Program ini ceritanya sebagai tempat jualan game seperti steam. ada beberapa tabel dengan spesifikasi sbb
 
-<h2>Table Games</h2>
-GameId 
-Name
-Developer (dari Developer table)
-Genre
-Price
+<h3>Table Games</h3>
+GameId <br>
+Name<br>
+Developer (dari Developer table)<br>
+Genre<br>
+Price<br>
 
-<h2>Table Developer</h2>
-DevId
-Name
-Owner (dari User Table)
-Status (indie/Commercial)
+<h3>Table Developer</h3>
+DevId<br>
+Name<br>
+Owner (dari User Table)<br>
+Status (indie/Commercial)<br>
 
-<h2>Table User</h2>
-UserId
-Name
-Bio
-DateJoined
+<h3>Table User</h3>
+UserId<br>
+Name<br>
+Bio<br>
+DateJoined<br>
 
 Semua data bisa dilakukan CRUD. dan jika ada data yang berhubungan yang dihapus maka data yang lain akan terhapus jg (cascade on delete)
 
