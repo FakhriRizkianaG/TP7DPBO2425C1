@@ -10,14 +10,14 @@ melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.<br>
 # Penjelasan Program
 Program ini ceritanya sebagai tempat jualan game seperti steam. ada beberapa tabel dengan spesifikasi sbb
 
-<h3>Table Games</h3><br>
+<h3>Table Games</h3>
 GameId <br>
 Name<br>
 Developer (dari Developer table)<br>
 Genre<br>
 Price<br>
 
-<h3>Table Developer</h3><br>
+<h3>Table Developer</h3>
 DevId<br>
 Name<br>
 Owner (dari User Table)<br>
