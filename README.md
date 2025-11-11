@@ -27,7 +27,7 @@ Status (indie/Commercial)<br>
 UserId<br>
 Name<br>
 Bio<br>
-DateJoined<br>
+DateJoined<br><br>
 
 Semua data bisa dilakukan CRUD. dan jika ada data yang berhubungan yang dihapus maka data yang lain akan terhapus jg (cascade on delete)<br>
 
