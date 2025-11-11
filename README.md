@@ -15,19 +15,19 @@ GameId <br>
 Name<br>
 Developer (dari Developer table)<br>
 Genre<br>
-Price<br><br>
+Price<br>
 
 <h3>Table Developer</h3><br>
 DevId<br>
 Name<br>
 Owner (dari User Table)<br>
-Status (indie/Commercial)<br><br>
+Status (indie/Commercial)<br>
 
 <h3>Table User</h3>
 UserId<br>
 Name<br>
 Bio<br>
-DateJoined<br><br>
+DateJoined<br>
 
 Semua data bisa dilakukan CRUD. dan jika ada data yang berhubungan yang dihapus maka data yang lain akan terhapus jg (cascade on delete)<br>
 
